@@ -24,7 +24,7 @@ git config --global push.default matching
 echo '---- Add files, commit and push ----'
 git add -A
 git commit -m "Adding latest build of pdf to gh-pages"
-git push https://${GH_OAUTH_TOKEN}@github.com/${GH_USER_NAME}/${GH_PROJECT_NAME} 2>&1
+git push https://${GH_OAUTH_TOKEN}@github.com/JamesHopbourn/pandoc-travis-setup 2>&1
 
 echo '######################################'
 echo '#              Publish               #'
